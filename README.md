@@ -6,12 +6,19 @@ Week 10 challenge, utilizing python and unsupervised learning to cluster cryptoc
 To do so, we:
 
 Imported the data from a given CSV file of crypto information
+
 Prepared the data using StandardScaler's fit_transform
+
 Found the best value for k using the scaled data
+
 Clustered the crypto currencies using that k-value
+
 Optimized the data using Principal Component Analysis
+
 Found the best value for k using the new PCA Data
+
 Clustered the crypto currencies using that k-value on the PCA Data
+
 Visualized and compared the two different groupings
 
 The analysis determined that using PCA to synthesize the data down to fewer features made tighter groupings with less overlap. The inertia of the optimal k also dropped from ~79 to ~50.
